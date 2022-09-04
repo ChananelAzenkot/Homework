@@ -1,6 +1,6 @@
 function shior0409() {
-	let num7 = parseFloat(prompt('enter a nam.'));
-	let num6 = parseFloat(prompt('enter a nam.'));
+	let num7 = parseFloat(prompt('enter a number.'));
+	let num6 = parseFloat(prompt('enter a number.'));
 	let num8 = prompt('-or+ or / or *');
 	if (num8 == '-') {
 		alert(num7 - num6);
