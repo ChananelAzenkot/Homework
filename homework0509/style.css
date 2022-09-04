@@ -199,7 +199,7 @@ p {
 		background-color: rgb(177, 155, 129);
 	}
 	.container {
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.header {
 		background-color: rgba(234, 235, 179, 0.882);
@@ -222,7 +222,7 @@ p {
 		background-color: rgb(238, 199, 147);
 	}
 	.container {
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.header {
 		background-color: rgba(166, 167, 115, 0.882);
@@ -245,7 +245,7 @@ p {
 		background-color: rgb(231, 187, 128);
 	}
 	.container {
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.header {
 		background-color: rgba(169, 170, 101, 0.882);
@@ -268,7 +268,7 @@ p {
 		background-color: rgb(196, 181, 160);
 	}
 	.container {
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.header {
 		background-color: rgba(183, 184, 124, 0.882);
