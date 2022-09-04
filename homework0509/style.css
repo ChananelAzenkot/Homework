@@ -196,13 +196,13 @@ p {
 
 @media (min-width: 500px) {
 	body {
-		background-color: rgb(209, 181, 145);
+		background-color: rgb(177, 155, 129);
 	}
 	.container {
 		flex-direction: column;
 	}
 	.header {
-		background-color: rgba(209, 210, 132, 0.882);
+		background-color: rgba(234, 235, 179, 0.882);
 		box-shadow: 1px 1px 1px 2px;
 		height: 68px;
 		border-radius: 4px;
@@ -219,13 +219,13 @@ p {
 
 @media (min-width: 600px) {
 	body {
-		background-color: rgb(209, 181, 145);
+		background-color: rgb(238, 199, 147);
 	}
 	.container {
 		flex-direction: column;
 	}
 	.header {
-		background-color: rgba(209, 210, 132, 0.882);
+		background-color: rgba(166, 167, 115, 0.882);
 		box-shadow: 1px 1px 1px 2px;
 		height: 68px;
 		border-radius: 4px;
@@ -242,13 +242,13 @@ p {
 
 @media (min-width: 800px) {
 	body {
-		background-color: rgb(209, 181, 145);
+		background-color: rgb(231, 187, 128);
 	}
 	.container {
 		flex-direction: column;
 	}
 	.header {
-		background-color: rgba(209, 210, 132, 0.882);
+		background-color: rgba(169, 170, 101, 0.882);
 		box-shadow: 1px 1px 1px 2px;
 		height: 68px;
 		border-radius: 4px;
@@ -265,13 +265,13 @@ p {
 
 @media (min-width: 1200px) {
 	body {
-		background-color: rgb(209, 181, 145);
+		background-color: rgb(196, 181, 160);
 	}
 	.container {
 		flex-direction: column;
 	}
 	.header {
-		background-color: rgba(209, 210, 132, 0.882);
+		background-color: rgba(183, 184, 124, 0.882);
 		box-shadow: 1px 1px 1px 2px;
 		height: 68px;
 		border-radius: 4px;
