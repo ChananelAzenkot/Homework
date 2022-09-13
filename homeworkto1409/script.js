@@ -11,5 +11,4 @@ for (let x = 0; x < 8; x++) {
 	mygame.push(mygamerow);
 	mygamerow = [];
 }
-
 console.table(mygame);
