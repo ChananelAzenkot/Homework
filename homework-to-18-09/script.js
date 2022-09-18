@@ -1,8 +1,8 @@
 let products = [
-    [1,'Product 1', 4],
-    [2,'Product 2', 8],
-    [3,'Product 3', 5],
-    [4,'Product 4', 10]
+    [1,'פיתות', "ש׳׳ח " + 4 ,],
+    [2,'קורסון',  " ש׳׳ח "+ 8],
+    [3,'אוכמניות', " ש׳׳ח " + 5],
+    [4,'לחם', " ש׳׳ח " + 10]
 ];
 let shoppingCart = [];
 function addToCart(product) {
@@ -13,11 +13,11 @@ function renderCartFromArray() {
     document.getElementById("shoppingCart").innerHTML = ''; //removes all the HTML content.
     for (let i = 0; i < shoppingCart.length; i++) {
         let productHTML = document.createElement("div");
-        let productDescription = document.createTextNode(shoppingCart[i][1]+' costs '+shoppingCart[i][2]);
+        let productDescription = document.createTextNode(shoppingCart[i][1]+' עלות '+shoppingCart[i][2]);
         let removeBtn = document.createElement('button');
 
         removeBtn.setAttribute('onclick', 'removeProduct('+shoppingCart[i][0]+')'); //sets an attribute to the button
-        removeBtn.textContent = 'remove';
+        removeBtn.textContent = 'להסיר';
         productHTML.appendChild(productDescription);
         productHTML.appendChild(removeBtn);
 
