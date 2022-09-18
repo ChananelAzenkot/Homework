@@ -1,0 +1,41 @@
+body{
+	background-color: bisque;
+	text-align: center;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(190, 184, 175);
+    color: white;
+	box-shadow: 1px 1px 1px 1px black;
+	
+}
+.products{
+	margin-right: 50%;
+	padding: 10px;
+	display: flex;
+    flex-direction: row-reverse;
+}
+.product{
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+	background-color: rgb(171, 162, 162);
+	box-shadow: 1px 1px 2px black;
+}
+.product img{
+	object-fit: cover;
+    width: 200px;
+    height: 150px;
+}
+.product h2{
+    margin-bottom: 10px;
+	background-color: rgb(195, 209, 209);
+	filter: drop-shadow(8px 8px 4px black);
+}
+
+.product p {
+	margin-bottom: 10px;
+	filter: drop-shadow(6px 4px 3px black);
+}
+
