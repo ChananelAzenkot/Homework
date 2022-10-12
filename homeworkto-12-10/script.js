@@ -25,7 +25,7 @@ let myUser2 = new User("ron");
 let myUser3 = new User("yuni");
 let myUser4 = new User("gal");
 
-myUser1.sendMessage("Hello");
+
 
 myUser1.addFollower(myUser2);
 //myUser1 is being followed by myUser2
