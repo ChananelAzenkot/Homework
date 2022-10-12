@@ -4,13 +4,13 @@ function User(someUserName) {
   this.iFollow = [];
 
   this.addFollower = function (someUser) {
-    this.followers.push(someUser); // Adding the follower to my List of followers (line 29)
-    someUser.iFollow.push(this); // Adding my Self to follower list of the people followed by him (line 30)
+    this.followers.push(someUser);
+    someUser.iFollow.push(this); 
   };
 
   this.sendMessage = function (myPost) {
     this.followers.forEach((follower) => {
-      follower.getMessage(myPost, this.userName); //myUser2.getMessage... ; myUser3.getMessage... ; myUser4.getMessage...
+      follower.getMessage(myPost, this.userName); 
     });
   };
   this.getMessage = function (theMessage, sender) {
@@ -28,18 +28,16 @@ let myUser4 = new User("gal");
 
 
 myUser1.addFollower(myUser2);
-//myUser1 is being followed by myUser2
-//myUser2 is following myUser1
-myUser1.sendMessage("Hello you to");
-myUser1.addFollower(myUser3);
-myUser1.sendMessage("hello");
-myUser1.addFollower(myUser4); //myUser1.followers.push(myUser4); myUser4.iFollow.push(myUser1);
-myUser1.sendMessage("Hello you to");
+myUser1.sendMessage("Hello to Everybody !! ");
 
 myUser2.addFollower(myUser3);
-myUser2.sendMessage("hello, you like to coding ? ");
+myUser2.sendMessage("hello");
 
-myUser2.addFollower(myUser4);
+myUser3.addFollower(myUser1);
+myUser3.sendMessage("Hello you to");
 
-myUser3.addFollower(myUser4);
+myUser2.addFollower(myUser3);
+myUser3.sendMessage("hello, you like to coding ? ");
+
+
 
