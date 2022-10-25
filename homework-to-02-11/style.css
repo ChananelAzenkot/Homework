@@ -1,0 +1,100 @@
+.haeder {
+  text-align: center;
+  margin-top: 5px;
+  height: 10%;
+  width: 500px;
+  font-weight: 800;
+  font-family: "david";
+  font-size: 30px;
+  background-color: rgb(121, 196, 121);
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+}
+.haeder h1 {
+  filter: drop-shadow(1px 2px 1px rgb(205, 110, 110));
+}
+.haeder h5 {
+  filter: drop-shadow(1px 2px 1px rgb(205, 110, 110));
+}
+
+.contniner {
+  text-align: center;
+  margin-top: 5px;
+  height: 10%;
+  width: 500px;
+  font-weight: 800;
+  font-family: "david";
+  font-size: 30px;
+  background-color: rgb(103, 103, 187);
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+}
+.contniner h5 {
+  filter: drop-shadow(1px 2px 1px rgb(205, 110, 110));
+}
+.contniner .the-card {
+  text-align: center;
+  margin-top: 5px;
+  height: 10%;
+  width: 500px;
+  font-weight: 800;
+  font-family: "david";
+  font-size: 30px;
+  background-color: rgb(193, 180, 104);
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+}
+.contniner .input-text {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+.contniner .accept {
+  text-align: center;
+  margin-top: 5px;
+  height: 10%;
+  width: 500px;
+  font-weight: 800;
+  font-family: "david";
+  font-size: 30px;
+  background-color: green;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+}
+.contniner .unaccept {
+  text-align: center;
+  margin-top: 5px;
+  height: 10%;
+  width: 500px;
+  font-weight: 800;
+  font-family: "david";
+  font-size: 30px;
+  background-color: red;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+}
+
+.thebtn button {
+  font-size: 15px;
+  margin: 10px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(161, 181, 131);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 5px;
+  height: 10%;
+  width: 500px;
+  font-weight: 800;
+  font-family: "david";
+  font-size: 30px;
+  background-color: rgb(176, 99, 99);
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px goldenrod;
+}
+
+/*# sourceMappingURL=style.css.map */
